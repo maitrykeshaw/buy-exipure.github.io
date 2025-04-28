@@ -24,17 +24,6 @@
     <link rel="shortcut icon" href="/icons/favicon.ico">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#00bcd4">
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function () {
-                navigator.serviceWorker.register('/sw.js').then(function (registration) {
-                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
-                }, function (err) {
-                    console.log('ServiceWorker registration failed: ', err);
-                });
-            });
-        }
-    </script>
 
     <style>
         @media (max-width: 767px) {
@@ -405,6 +394,17 @@
         src="files/assets/touchswipe%2c_jquery.touch-swipe.min.js%2btheme%2c_js%2c_script.js.pagespeed.jc.hAdvi2itVB.js"></script>
     <script>eval(mod_pagespeed_d$1SZGiWKP);</script>
     <script>eval(mod_pagespeed_27gQeS5PgH);</script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js').then(function (registration) {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function (err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
 </body>
 
 </html>
