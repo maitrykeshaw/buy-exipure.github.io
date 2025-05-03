@@ -1,12 +1,12 @@
 {
-  "name":"PWA Tutorial",
-  "short_name":"PWA",
+  "name":"buy Exipure™",
+  "short_name":"Exipure™",
   "start_url":"index.html",
   "display":"standalone",
   "background_color":"#5900b3",
   "theme_color":"#FF5733",
   "scope": ".",
-  "description":"This is a PWA tutorial.",
+  "description":"Exipure is the best tropical secret for healthy weight loss.",
   "icons":[
   {
   "src":"icons/favicon-192x192.png",                     
